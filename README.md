@@ -1,7 +1,7 @@
-# CJSONC
-Swift C module for json-c (Linux)
+# CNCURSES
+Swift C module for ncurses (Linux)
 
-For details about using json-c, see the official repository at https://github.com/json-c/json-c
+For details about using ncurses, see http://invisible-island.net/ncurses/.
 
 ## Including in Swift Code
 
@@ -11,10 +11,9 @@ Add a ```.Package``` dependency to your ```Package.swift``` file as shown in the
 import PackageDescription
 
 let package = Package(
-  name:  "translator",
+  name:  "myapp
   dependencies: [
-    .Package(url:  "https://github.com/iachievedit/CJSONC", majorVersion: 1),
-    .Package(url:  "https://github.com/PureSwift/CcURL", majorVersion: 1)
+    .Package(url:  "https://github.com/iachievedit/CNCURSES", majorVersion:1)
   ]
 )
 ```

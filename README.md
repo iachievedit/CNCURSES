@@ -17,7 +17,7 @@ let package = Package(
   ]
 )
 ```
-
+
 ## Ubuntu Installation (Trusty)
 
 Install the development headers for `libncurses5`:

@@ -17,10 +17,10 @@ let package = Package(
   ]
 )
 ```
+
+## Ubuntu Installation (Trusty)
 
-## Ubuntu Installation
+Install the development headers for `libncurses5`:
 
-Install the development headers for libjson-c:
-
-```sudo apt-get install -y libjson-c-dev```
+```sudo apt-get install -y libncurses5-dev```
 
